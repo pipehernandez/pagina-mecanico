@@ -1,0 +1,143 @@
+body{
+    width: 1200px;
+    background-color: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+header{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    background-color: #1551a1;
+    text-align: center;
+}
+
+.logo1{
+    display: inline-flex;
+    padding: 20px;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-flex; 
+    margin-top: 40px;
+    margin-left: -5px;
+}
+
+nav{
+    width: 1000px;
+    margin: auto;
+}
+
+.slider{
+    width: 100%;
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-top: -35px;
+}
+
+h1{
+    text-align: center;
+    color: #ff7600;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.contenedor{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+h2{
+    background-color: #1551a1;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+.servicio1{
+    border: 1px solid black;
+    width: 32%;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.imagen1{
+    width: 100%;
+}
+
+.servicio2{
+    border: 1px solid black;
+    width: 32%;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.imagen2{
+    width: 100%;
+}
+
+.servicio3{
+    border: 1px solid black;
+    width: 32%;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.imagen3{
+    width: 100%;
+}
+
+button{
+    background-color: #1551a1;
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+}
+
+footer{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    background-color: #062348;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: small;
+}
+
+.logofooter{
+    width: 300px;
+    height: 50px;
+    margin-left: 15%;
+    padding: 5px;
+}
+
+.loremfooter{
+    width: 550px;
+    color: white;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+aside{
+    display: inline;
+    float: right;
+    margin: auto;
+    margin-top: -60px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
